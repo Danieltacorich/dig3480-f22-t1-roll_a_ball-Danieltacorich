@@ -17,6 +17,6 @@ float WPradius = 1;
     // Update is called once per frame
     void Update()
     {
-        
+        if(Vector3.Distance(Movement[current].transform.position, Transform.position) < WPradius)
     }
 }
