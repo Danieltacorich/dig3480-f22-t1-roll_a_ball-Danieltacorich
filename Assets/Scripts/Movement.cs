@@ -5,7 +5,7 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 
 {
-    public GameObject[]
+    public GameObject[] 'Movement;
     int current = 0;
     float rotspeed;
     public float speed;
