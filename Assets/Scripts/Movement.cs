@@ -19,7 +19,12 @@ float WPradius = 1;
     {
         if(Vector3.Distance(Movement[current].transform.position, Transform.position) < WPradius)
         {
-            current
+            current = Random.Range(0,Movement.Length);
+            if (CustomRenderTextureInitializationSource >=Movement.Length)
+            {
+                Current = 0;
+            }
+            Transform.position = Vector3.MoveTowards(Transform.position, Movement[current].transform.position)
         }
     }
 }
