@@ -15,7 +15,7 @@ public class Movement : MonoBehaviour
     {
         if(Vector3.Distance(waypoints[current].transform.position, Transform.position) < WPradius)
         {
-            current = Random.Range(0,waypoints.Length);
+            current++;
             if (current >= waypoints.Length)
             {
                 Current = 0;
