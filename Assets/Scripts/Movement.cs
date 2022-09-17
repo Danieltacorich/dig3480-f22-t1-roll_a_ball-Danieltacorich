@@ -26,7 +26,7 @@ public class Movement : MonoBehaviour
             {
                 Current = 0;
             }
-            Transform.position = Vector3.MoveTowards(Transform.position, Movement[current].transform.position, Time.deltaTime * speed);
+            Transform.position = Vector3.MoveTowards(Transform.position, waypoints[current].transform.position, Time.deltaTime * speed);
         }
     }
 }
