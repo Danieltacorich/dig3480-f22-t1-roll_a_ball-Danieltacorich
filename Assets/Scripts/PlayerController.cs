@@ -38,6 +38,12 @@ public class PlayerController : MonoBehaviour
         Vector3 movement = new Vector3(movementX, 0.0f, movementY);
 
         rb.AddForce(movement * speed);
+
+        // Teleport 
+        if (count == 4)
+        {
+            transform.position = new Vector3(27.0f, 1.0f, -17.0f);
+        }
     }
     
     private void OnTriggerEnter(Collider other)
