@@ -50,7 +50,7 @@ public class PlayerController : MonoBehaviour
          // Teleport 
         if (count == 4) 
         {
-            transform.position = new Vector3(27.0f, 0.0f, -17.0f); 
+            transform.position = new Vector3(27.0f, 1.0f, -17.0f); 
         }
     }
     void SetCountText()
