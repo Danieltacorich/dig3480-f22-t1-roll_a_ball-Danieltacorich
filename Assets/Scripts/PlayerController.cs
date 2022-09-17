@@ -48,9 +48,9 @@ public class PlayerController : MonoBehaviour
             SetCountText();
         }
          // Teleport 
-        if (count == ) 
+        if (count == 4) 
         {
-            transform.position = new Vector3(50.0f, 0.0f, 50.0f); 
+            transform.position = new Vector3(27.0f, 0.0f, -17.0f); 
         }
     }
     void SetCountText()
