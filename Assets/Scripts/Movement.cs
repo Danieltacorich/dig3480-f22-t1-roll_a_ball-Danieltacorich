@@ -5,6 +5,7 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 
 {
+    public GameObject[]
     int current = 0;
     float rotspeed;
     public float speed;
@@ -18,7 +19,7 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Vector3.Distance(waypoints[current].transform.position, Transform.position) < WPradius)
+        if(Vector3.Distance(Movement[current].transform.position, Transform.position) < WPradius)
         {
             current = Random.Range(0,Movement.Length);
             if (CustomRenderTextureInitializationSource >=Movement.Length)
