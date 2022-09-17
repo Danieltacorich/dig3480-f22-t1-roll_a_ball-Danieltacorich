@@ -18,5 +18,8 @@ float WPradius = 1;
     void Update()
     {
         if(Vector3.Distance(Movement[current].transform.position, Transform.position) < WPradius)
+        {
+            current
+        }
     }
 }
