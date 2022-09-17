@@ -24,7 +24,7 @@ float WPradius = 1;
             {
                 Current = 0;
             }
-            Transform.position = Vector3.MoveTowards(Transform.position, Movement[current].transform.position)
+            Transform.position = Vector3.MoveTowards(Transform.position, Movement[current].transform.position, Time.deltaTime * speed);
         }
     }
 }
