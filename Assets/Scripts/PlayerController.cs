@@ -67,7 +67,7 @@ public class PlayerController : MonoBehaviour
         // Teleport 2 to LV3
         if (count == 10)
         {
-            transform.position = new Vector3(27.0f, 1.0f, -17.0f);
+            transform.position = new Vector3(42.0f, 1.0f, -11.0f);
         }
 
 
