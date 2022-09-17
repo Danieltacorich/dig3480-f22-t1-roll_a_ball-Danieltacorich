@@ -6,7 +6,7 @@ public class Movement : MonoBehaviour
 {
     public GameObject[] waypoints;
     int current = 0;
-    float rotspeed;
+    float rotSpeed;
     public float speed;
     float WPradius = 1;
 
