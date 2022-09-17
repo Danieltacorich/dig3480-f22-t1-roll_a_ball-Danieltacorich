@@ -39,11 +39,6 @@ public class PlayerController : MonoBehaviour
 
         rb.AddForce(movement * speed);
 
-        // Teleport 
-        if (count == 4)
-        {
-            transform.position = new Vector3(27.0f, 1.0f, -17.0f);
-        }
     }
     
     private void OnTriggerEnter(Collider other)
@@ -64,6 +59,13 @@ public class PlayerController : MonoBehaviour
             // Set the text value of your 'winText'
             winTextObject.SetActive(true);
         }
+        // Teleport 
+        if (count == 4)
+        {
+            transform.position = new Vector3(27.0f, 1.0f, -17.0f);
+        }
+
+
     }
 
 }
