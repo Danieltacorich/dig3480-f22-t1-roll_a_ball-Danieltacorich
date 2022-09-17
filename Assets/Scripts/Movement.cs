@@ -22,7 +22,7 @@ public class Movement : MonoBehaviour
         if(Vector3.Distance(Movement[current].transform.position, Transform.position) < WPradius)
         {
             current = Random.Range(0,Movement.Length);
-            if (current = Random >=Movement.Length)
+            if (current >= Movement.Length)
             {
                 Current = 0;
             }
