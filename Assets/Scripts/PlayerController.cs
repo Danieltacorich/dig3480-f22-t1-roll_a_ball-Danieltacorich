@@ -39,6 +39,7 @@ public class PlayerController : MonoBehaviour
 
         rb.AddForce(movement * speed);
     }
+    
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Gold"))
@@ -46,11 +47,6 @@ public class PlayerController : MonoBehaviour
             other.gameObject.SetActive(false);
             count = count + 1;
             SetCountText();
-        }
-         // Teleport 
-        if (count == 4) 
-        {
-            transform.position = new Vector3(27.0f, 1.0f, -17.0f); 
         }
     }
     void SetCountText()
