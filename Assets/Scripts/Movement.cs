@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Movement : MonoBehaviour
-int current = 0;
-float rotspeed;
-public float speed;
-float WPradius = 1;
+
 {
+    int current = 0;
+    float rotspeed;
+    public float speed;
+    float WPradius = 1;
     // Start is called before the first frame update
     void Start()
     {
