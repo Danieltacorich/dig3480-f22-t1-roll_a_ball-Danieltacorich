@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Waypoints : MonoBehaviour
+public class Waypoints : MonoBehaviour  // https://www.youtube.com/watch?v=EwHiMQ3jdHw
 {
     public GameObject[] waypoints;
     int current = 0;
