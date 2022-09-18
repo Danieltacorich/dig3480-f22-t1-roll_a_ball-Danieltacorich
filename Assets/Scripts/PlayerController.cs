@@ -34,7 +34,7 @@ public class PlayerController : MonoBehaviour
         winTextObject.SetActive(false);
         loseTextObject.SetActive(false);
 
-        //Destroy(GameObject.SetActive(false));
+        
     }
 
     private void OnMove(InputValue movementValue)
