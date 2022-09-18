@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     public TextMeshProUGUI countText;
     public GameObject winTextObject;
     public GameObject loseTextObject;
+    public GameObject livesTextObject;  // Check
 
     private Rigidbody rb;
     private int count;
@@ -25,7 +26,7 @@ public class PlayerController : MonoBehaviour
         count = 0;
         SetCountText();
 
-        lives = 3;
+        lives = 3;            // Check
         SetCountText(); 
 
 
@@ -72,6 +73,13 @@ public class PlayerController : MonoBehaviour
     void SetCountText()
     {
         countText.text = "Count: " + count.ToString();
+        livesText.text = "lives: " + lives.ToString();
+
+        if (lives == 0)
+        {
+            loseTextObject.SetActive(true);
+            Destroy(gameObject);
+        }
 
         if (count >= 20)
         {
