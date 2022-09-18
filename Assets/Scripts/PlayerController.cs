@@ -73,13 +73,6 @@ public class PlayerController : MonoBehaviour
     void SetCountText()
     {
         countText.text = "Count: " + count.ToString();
-        livesText.text = "lives: " + lives.ToString();   //Check
-
-        if (lives == 0)
-        {
-            loseTextObject.SetActive(true);
-            Destroy(gameObject);
-        }
 
         if (count >= 20)
         {
@@ -96,8 +89,16 @@ public class PlayerController : MonoBehaviour
         {
             transform.position = new Vector3(43.69f, 1.0f, -7.48f);
         }
+    }
+    void SetLivesText()
+    {
+        livesText.text = "lives: " + lives.ToString();   //Check
 
-
+        if (lives == 0)
+        {
+            loseTextObject.SetActive(true);
+            Destroy(gameObject);
+        }
     }
 
 }
