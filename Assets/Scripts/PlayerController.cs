@@ -83,6 +83,7 @@ public class PlayerController : MonoBehaviour
         {
             // Set the text value of your 'winText'
             winTextObject.SetActive(true);
+            Destroy (this);
         }
         // Teleport 1 to LV2
         if (count == 4)
@@ -99,7 +100,7 @@ public class PlayerController : MonoBehaviour
         if (lives == 0)
         {
             loseTextObject.SetActive(true);
-            Destroy (this);
+            Destroy (gameObject);
         }
     }
 
