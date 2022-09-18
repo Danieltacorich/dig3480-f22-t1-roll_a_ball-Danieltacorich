@@ -59,7 +59,7 @@ public class PlayerController : MonoBehaviour
         else if (other.gameObject.CompareTag("Enemy"))
         {
             other.gameObject.SetActive(false);
-            count = count - 1;
+            lives = lives - 1;
             SetCountText(); 
         }
         if (other.gameObject.CompareTag("Death"))
