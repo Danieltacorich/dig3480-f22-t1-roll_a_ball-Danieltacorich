@@ -96,9 +96,6 @@ public class PlayerController : MonoBehaviour
             Destroy(gameObject);
         }
     }
-    void SetLivesText()
-    {
-        
-    }
+        //void SetLivesText()
 
 }
