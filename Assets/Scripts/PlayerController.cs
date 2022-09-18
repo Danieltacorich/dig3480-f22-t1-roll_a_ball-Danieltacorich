@@ -74,18 +74,18 @@ public class PlayerController : MonoBehaviour
     {
         countText.text = "Count: " + count.ToString();
 
-        if (count >= 20)
+        if (count >= 18)
         {
             // Set the text value of your 'winText'
             winTextObject.SetActive(true);
         }
         // Teleport 1 to LV2
-        if (count == 4)
+        if (count >= 3)
         {
             transform.position = new Vector3(27.0f, 1.0f, -17.0f);
         }
         // Teleport 2 to LV3
-        if (count == 10)
+        if (count >= 8)
         {
             transform.position = new Vector3(43.69f, 1.0f, -7.48f);
         }
