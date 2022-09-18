@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 3716991455181458968}
   - component: {fileID: 5332844620501662768}
   - component: {fileID: 7464521749855894559}
-  - component: {fileID: 6003164912473289451}
+  - component: {fileID: 4504310803051137579}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Enemy
@@ -562,7 +562,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
---- !u!114 &6003164912473289451
+--- !u!114 &4504310803051137579
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -571,6 +571,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 6314306336186819076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0799a1e79e06f7848a235dd1ba471595, type: 3}
+  m_Script: {fileID: 11500000, guid: 08e8ded61a48c0a42af153f3fd095c10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
