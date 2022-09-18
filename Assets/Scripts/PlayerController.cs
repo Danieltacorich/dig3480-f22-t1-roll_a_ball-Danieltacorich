@@ -73,7 +73,7 @@ public class PlayerController : MonoBehaviour
     void SetCountText()
     {
         countText.text = "Count: " + count.ToString();
-        livesText.text = "lives: " + lives.ToString();
+        livesText.text = "lives: " + lives.ToString();   //Check
 
         if (lives == 0)
         {
