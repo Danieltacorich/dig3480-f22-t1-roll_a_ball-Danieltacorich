@@ -82,12 +82,12 @@ public class PlayerController : MonoBehaviour
             winTextObject.SetActive(true);
         }
         // Teleport 1 to LV2
-        if (count >= 3)
+        if (count == 4)
         {
             transform.position = new Vector3(27.0f, 1.0f, -17.0f);
         }
         // Teleport 2 to LV3
-        if (count >= 8)
+        if (count == 10)
         {
             transform.position = new Vector3(43.69f, 1.0f, -7.48f);
         }
