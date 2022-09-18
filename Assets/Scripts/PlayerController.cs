@@ -100,7 +100,7 @@ public class PlayerController : MonoBehaviour
             loseTextObject.SetActive(true);
             //Destroy(GameObject.SetActive(true));
         }
-        if (count <= 13)
+        if (count == 13)
         {
             loseTextObject.SetActive(true);
             //Destroy(GameObject.SetActive(true));
