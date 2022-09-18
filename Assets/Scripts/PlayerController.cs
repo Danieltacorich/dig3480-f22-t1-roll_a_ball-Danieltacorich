@@ -62,7 +62,7 @@ public class PlayerController : MonoBehaviour
         }
         if (other.gameObject.CompareTag("Death"))
         {
-            
+            lives = lives - 1;
         }
     }
     void SetCountText()
