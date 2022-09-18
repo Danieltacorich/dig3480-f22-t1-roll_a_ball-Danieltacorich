@@ -26,6 +26,7 @@ public class PlayerController : MonoBehaviour
         count = 0;
         SetCountText();
 
+        rb = GetComponent<Rigidbody>(); 
         lives = 3;            // Check
         SetlivesText(); 
 
