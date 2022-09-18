@@ -60,6 +60,10 @@ public class PlayerController : MonoBehaviour
             count = count - 1;
             SetCountText(); 
         }
+        if (other.gameObject.CompareTag("Death"))
+        {
+            
+        }
     }
     void SetCountText()
     {
