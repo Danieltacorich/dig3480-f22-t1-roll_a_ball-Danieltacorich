@@ -67,6 +67,7 @@ public class PlayerController : MonoBehaviour
         {
             lives = lives - 1;
             transform.position = new Vector3(43.69f, 1.0f, -7.48f);
+            SetCountText();
         }
     }
     void SetCountText()
