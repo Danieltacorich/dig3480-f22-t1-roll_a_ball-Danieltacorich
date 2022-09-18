@@ -25,17 +25,11 @@ public class PlayerController : MonoBehaviour
 
         count = 0;
         lives = 3;
-        
-
-         
-
-                
-        SetCountText();
 
         winTextObject.SetActive(false);
         loseTextObject.SetActive(false);
 
-        
+        SetCountText();
     }
 
     private void OnMove(InputValue movementValue)
