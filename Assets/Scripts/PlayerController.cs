@@ -88,16 +88,17 @@ public class PlayerController : MonoBehaviour
         {
             transform.position = new Vector3(43.69f, 1.0f, -7.48f);
         }
-    }
-    void SetLivesText()
-    {
+        
         livesText.text = "Lives: " + lives.ToString();   //Check
-
         if (lives == 0)
         {
             loseTextObject.SetActive(true);
             Destroy(gameObject);
         }
+    }
+    void SetLivesText()
+    {
+        
     }
 
 }
