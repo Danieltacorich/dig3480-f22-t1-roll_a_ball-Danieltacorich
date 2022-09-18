@@ -34,7 +34,7 @@ public class PlayerController : MonoBehaviour
         winTextObject.SetActive(false);
         loseTextObject.SetActive(false);
 
-        Destroy(GameObject.SetActive(false));
+        //Destroy(GameObject.SetActive(false));
     }
 
     private void OnMove(InputValue movementValue)
@@ -98,14 +98,13 @@ public class PlayerController : MonoBehaviour
         if (lives == 0)
         {
             loseTextObject.SetActive(true);
-            Destroy(GameObject.SetActive(true));
+            //Destroy(GameObject.SetActive(true));
         }
         if (count <= 13)
         {
             loseTextObject.SetActive(true);
-            Destroy(GameObject.SetActive(true));
+            //Destroy(GameObject.SetActive(true));
         }
     }
-        //void SetLivesText()
 
 }
