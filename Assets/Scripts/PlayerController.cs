@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     public TextMeshProUGUI countText;
     public GameObject winTextObject;
     public GameObject loseTextObject;
-    public GameObject livesTextObject;  // Check
+    public TextMeshProGUI livesText;  // Check
 
     private Rigidbody rb;
     private int count;
