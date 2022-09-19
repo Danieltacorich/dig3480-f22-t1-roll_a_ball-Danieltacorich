@@ -21,7 +21,7 @@
             {
                 "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
                 "key": "buildOutputDirList",
-                "value": "{\"m_Value\":\"C:/Users/e_car/dig3480-f22-t1-roll_a_ball-Danieltacorich/Build/Buildv3;C:/Users/e_car/dig3480-f22-t1-roll_a_ball-Danieltacorich/Build/Build2;C:/Users/e_car/dig3480-f22-t1-roll_a_ball-Danieltacorich/WebGL Builds;;;;;;;\"}"
+                "value": "{\"m_Value\":\"C:/Users/e_car/dig3480-f22-t1-roll_a_ball-Danieltacorich/Temp/UnityTempFile-31fb90f2b3827e3499b1c2d81dfe1c19/PlayerWithTests/PlayerWithTests;C:/Users/e_car/dig3480-f22-t1-roll_a_ball-Danieltacorich/Build/Buildv3;C:/Users/e_car/dig3480-f22-t1-roll_a_ball-Danieltacorich/Build/Build2;C:/Users/e_car/dig3480-f22-t1-roll_a_ball-Danieltacorich/WebGL Builds;;;;;;\"}"
             }
         ]
     }
