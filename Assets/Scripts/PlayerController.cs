@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     public TextMeshProUGUI countText;
     public GameObject winTextObject;
     public GameObject loseTextObject;
-    public TextMeshProUGUI livesText;  // Check
+    public TextMeshProUGUI livesText;  // Check yup
 
     private Rigidbody rb;
     private int count;
@@ -47,7 +47,7 @@ public class PlayerController : MonoBehaviour
         rb.AddForce(movement * speed);
 
     }
-    
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Gold"))
@@ -60,7 +60,7 @@ public class PlayerController : MonoBehaviour
         {
             other.gameObject.SetActive(false);
             lives = lives - 1;
-            SetCountText(); 
+            SetCountText();
         }
         if (other.gameObject.CompareTag("Death"))
         {
@@ -77,7 +77,7 @@ public class PlayerController : MonoBehaviour
         {
             // Set the text value of your 'winText'
             winTextObject.SetActive(true);
-            Destroy (this);
+            Destroy(this);
         }
         // Teleport 1 to LV2
         if (count == 4)
@@ -89,12 +89,12 @@ public class PlayerController : MonoBehaviour
         {
             transform.position = new Vector3(43.69f, 1.0f, -7.48f);
         }
-        
+
         livesText.text = "Lives: " + lives.ToString();   //Check
         if (lives == 0)
         {
             loseTextObject.SetActive(true);
-            Destroy (gameObject);
+            Destroy(gameObject);
         }
     }
 
